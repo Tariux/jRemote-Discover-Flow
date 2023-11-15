@@ -1,0 +1,205 @@
+@import url('https://v1.fontapi.ir/css/Sahel');
+
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Sahel, sans-serif;
+  color: #384047;
+  direction: rtl;
+}
+
+form {
+  margin: 10px auto;
+  padding: 10px 20px;
+  background: #f4f7f8;
+  border-radius: 8px;
+}
+
+h1 {
+  margin: 0 0 30px 0;
+  text-align: center;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea,
+select {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 14px;
+  margin: 0;
+  outline: 0;
+  padding: .4rem 1rem;
+  width: 100%;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 5px;
+  font-family: Sahel, sans-serif !important;
+  border-radius: 5px;
+
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 0 4px 8px 0;
+}
+
+select {
+  padding: .3rem 1rem;
+  border-radius: 5px;
+
+}
+
+button {
+  padding: .3rem 1rem;
+  color: #FFF;
+  background-color: #303030;
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
+  font-family: Sahel, sans-serif;
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 1rem;
+
+  border: 0;
+}
+
+button:hover {
+  color: #252525;
+  background-color: #ededed;
+}
+
+div.fields {
+  padding: 1rem;
+}
+
+div.fieldset {
+  margin-bottom: 30px;
+  border: none;
+
+}
+
+legend {
+  font-size: 1.4em;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+label.light {
+  font-weight: 300;
+  display: inline;
+}
+
+.number {
+  background-color: #252525;
+  color: #fff;
+  display: inline-block;
+  padding: 5px 20px;
+  font-size: 0.8em;
+  font-weight: 900;
+  border-radius: 5px;
+}
+
+
+
+.center {
+  text-align: center;
+  margin: 0 auto;
+}
+.app-config {
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+.time {
+  min-height: 30vh;
+  padding: 1rem .5rem;
+  border-radius: 10px;
+  background-color: #e8eeef;
+}
+.time legend {
+  font-size: 12px;
+  text-align: center;
+
+}
+.time span {
+  padding: .3rem;
+  font-weight: 500;
+  font-size: 11px;
+  font-family: monospace;
+  margin: 0 .2rem;
+}
+
+
+
+
+
+
+
+.search-result {
+  height: 60vh;
+  border-radius: 5px;
+  overflow-y: scroll;
+}
+.search-result .project {
+  background-color: #eeeeee;
+  padding: 1rem;
+  padding-bottom: .2rem;
+  border-radius: 5px;
+  margin-bottom: .5rem;
+}
+.search-result .project .desc {
+  font-size: 12px;
+}
+.search-result .project .title {
+  font-size: 16px;
+  font-weight: 700;
+}
+.search-result .project .meta {
+  font-size: 13px;
+  font-weight: 900;
+}
+
+.search-result .project .meta button {
+  font-size: 12px;
+}
+.search-result .project .meta button:hover {
+    background-color: #e1e1e1 !important;
+}
+button.green {
+  background-color: green;
+}
+button.red {
+  background-color: orangered;
+}
+button.orange {
+  background-color: orange;
+}
+
+
+.search-result {
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  scrollbar-width: none;  /* Firefox */
+}
+.search-result::-webkit-scrollbar { 
+  display: none;  /* Safari and Chrome */
+}

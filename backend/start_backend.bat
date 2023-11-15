@@ -1,0 +1,4 @@
+@ECHO OFF
+TITLE AUTOBID BOT
+nodemon -L server.js
+PAUSE
